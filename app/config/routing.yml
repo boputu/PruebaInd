@@ -1,0 +1,13 @@
+esqueleto:
+    resource: "@EsqueletoBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+borja:
+    resource: "@BorjaBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation

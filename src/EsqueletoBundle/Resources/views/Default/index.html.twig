@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+{% for croyale in royale %}
+ID: {{ croyale.id}}<br>
+Nombre: {{ croyale.nombre}}<br>
+Usuario: {{ croyale.usuario}}<br>
+Contraseña: {{ croyale.contrasenya}}<br>
+Ranking: {{ croyale.ranking}}<br>
+Nivel: {{ croyale.level}}<br>
+{% endfor %}
+{% endblock %}
